@@ -1,112 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f7fb;
-    color: #333;
-}
-
-header {
-    background-color: #4f46e5;
-    color: white;
-    padding: 30px;
-    text-align: center;
-}
-
-nav {
-    background-color: white;
-    padding: 15px;
-    text-align: center;
-}
-
-nav a {
-    color: #4f46e5;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-}
-
-main {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 20px;
-}
-
-section {
-    background-color: white;
-    padding: 25px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-}
- h2 {
-    color: #4f46e5;
-}
-
-
-.contact-button {
-    display: inline-block;
-    background-color: #4f46e5;
-    color: white;
-    padding: 12px 20px;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    }
-
-        </style>
-        <title>My Portfolio</title>
+    <meta name="description" content="Personal portfolio of a programming student">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
 </head>
+
 <body>
 
     <header>
-        <h1>My Portfolio</h1>
+        <nav aria-label="Main navigation">
+    <h1>My Programming Portfolio</h1>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+    
     </header>
 
-    <nav aria-label="Main navigation">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
     <main>
-        <section id="home">
-            <h2>Welcome</h2>
-            <p>Welcome to my portfolio website.</p>
+
+        <section>
+            <h2>Welcome to My Portfolio</h2>
+
+            <p>
+                Hello! I am a programming student learning
+                web development and software programming.
+            </p>
+
+            <p>
+                This portfolio shows my skills, projects,
+                learning journey and contact information.
+            </p>
+
+            <a href="projects.html">View My Projects</a>
         </section>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am learning web development and building my skills in HTML and CSS.</p>
-        </section>
-<section id="contact">
-    <h2>Contact</h2>
-    <p>If you would like to get in touch with me, feel free to send me an email.</p>
+        <section>
+            <h2>What I Am Learning</h2>
 
-    <a href="mailto:kaisaigrace50@gmail.com" class="contact-button">
-        Email Me
-    </a>
-</section>
-
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git and GitHub</li>
+                <li>Programming</li>
+            </ul>
         
+        </section>
+
+<div class="photo-gallery">
+    <img src="https://picsum.photos/400/300?random=1" alt="Image 1">
+    <img src="https://picsum.photos/400/300?random=2" alt="Image 2">
+    <img src="https://picsum.photos/400/300?random=3" alt="Image 3">
+    <img src="https://picsum.photos/400/300?random=4" alt="Image 4">
+    <img src="https://picsum.photos/400/300?random=5" alt="Image 5">
+    <img src="https://picsum.photos/400/300?random=6" alt="Image 6">
+</div>
+        <div class="magazine-layout">
+
+    <div class="magazine-header">
+        <h2>My Magazine</h2>
+    </div>
+
+    <aside class="magazine-sidebar">
+        <h3>Sidebar</h3>
+        <p>Latest news and updates.</p>
+    </aside>
+
+    <div class="magazine-content">
+        <h3>Main Content</h3>
+        <p>Welcome to my magazine layout.</p>
+    </div>
+
+    <div class="magazine-content">
+        <h3>Main Content</h3>
+        <p>More interesting information goes here.</p>
+    </div>
+
+    <div class="magazine-footer">
+        <p>© 2026 My Magazine</p>
+    </div>
+
+        </div>
 
     </main>
-    
+
+
+
     <footer>
-        <p>&copy; 2026 My Portfolio</p>
-    </footer>
+  <div class="footer-container">
+
+    <div>
+      <h3>My Portfolio</h3>
+      <p>Web Developer & Designer</p>
+    </div>
+
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="index.html">Home</a></p>
+      <p><a href="projects.html">Projects</a></p>
+    </div>
+
+    <div>
+      <h3>Contact</h3>
+      <p><a href="contact.html">Contact Me</a></p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Me</h3>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 My Programming Portfolio. All rights reserved.</p>
+  </div>
+</footer>
 
 </body>
+
 </html>
